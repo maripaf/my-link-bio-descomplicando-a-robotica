@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #4F04AE 0%, #FFFFFF 100%) no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ellipse {
+    width: 115px;
+    height: 115px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.photo {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background: url(figures/des-robotica-capa.png);
+    background-size: cover;
+}
+
+.name-role {
+    margin-top: 9px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.by {
+    padding-top: 7px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.role {
+    padding-top: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media {
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px 5px;
+}
+
+.linkedin,
+.instagram {
+    width: 42px;
+    height: 34px;
+}
+
+.links {
+    margin-top: 50px;
+}
+
+.my-site {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 25px;
+    background: linear-gradient(266.56deg, rgba(179, 34, 216, 0.96) 3.54%, #3E00EF 98.08%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.podcast {
+    width: 258px;
+    height: 47px;
+    margin-bottom: 18px;
+    margin-left: -4px;
+    background: url(figures/link_spotify.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.igtv {
+    width: 258px;
+    height: 47px;
+    margin-bottom: 18px;
+    margin-left: -4px;
+    background: url(figures/link_igtv.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    padding-left: 32px;
+    margin-top: -7px;
+}
+
+.end {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15px;
+    margin-top: 17px;
+    background: linear-gradient(90deg, #3E00EF 0%, #B322D8 100%);
+}
